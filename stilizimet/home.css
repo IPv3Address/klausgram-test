@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@100;300;400;600;700;800;900&display=swap');
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d1d1d1;
+}
+
+.navbari {
+    background-color: white;
+}
+
+.logo_text {
+    font-family: 'Grand Hotel', cursive;
+}
+
+.icons_navbar {
+    width: 40px;
+}
+
+.navbar_icons {
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 20px;
+    color: black;
+}
+
+.navbar_text {
+    font-size: 2.5rem;
+}
+
+/* MENUJA KRYESORE */
+
+.kontenti {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;   
+}
+
+.storyt {
+    width: 100%;
+    background-color: white;
+    padding: 16px 0;
+    position: relative;
+    overflow: hidden;     
+}
+
+.kontenti-storyt {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    gap: 16px;
+    padding: 0 16px;
+    position: relative;    
+}
+.kontenti-storyt::-webkit-scrollbar {
+    height: 4px;
+    background-color: #aaa;
+}
+
+.story {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+}
+
+.story-border {
+    width: 64px;
+    height: 64px;
+    fill: none;
+    stroke: grey;
+    stroke-width: 1.5;
+}
+
+.story-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    overflow: hidden;;
+}
+
+.story-avatar {
+    width: 56px;
+}
+
+
+/* POSTIMET */ 
+
+.posti {
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.posti-header {
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;    
+}
+
+.posti-profili {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.posti-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.posti-profili {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;    
+}
+
+.posti-profili:hover {
+    text-decoration: underline;
+    cursor: pointer;   
+}
+
+.posti-opsjonet {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.posti-kontent {
+    display: flex;
+    position: relative;   
+}
+
+.posti-mediat {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: auto;
+    width: 100%;
+    scroll-behavior: smooth;    
+}
+
+.posti-media {
+    width: 100%;
+}
+
+.posti-mediat::-webkit-scrollbar {
+    background-color: transparent;
+    width: 5px;
+}
+
+.posti-footer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 0 4px;    
+}
+
+.posti-butonat {
+    display: flex;
+    position: relative;
+}
+
+.posti-butoni {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.posti-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+    gap: 10px;   
+}
+
+.posti-likes {
+    align-items: center;
+    gap: 6px; 
+}
+
+.posti-likes a {
+    font-weight: 600;
+}
+
+.posti-likes-avatar {
+    text-decoration: none;
+}
+
+.posti-description {
+    display: flex;
+}
+
+.posti-description a {
+    font-weight: 600;
+}
+
+.posti-ora {
+    font-size: 10px;
+    font-weight: 400;    
+}
+
+.posti-description span {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/** Menuja ANSORE **/
+
+.avatari_ansor {
+    width: 56px;
+}
+.avatari-ansor-suggest {
+    width: 32px;
+}
+
+.menuja-ansore-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+    gap: 4px;
+}
+
+.menuja-ansore-perdoruesi{
+    display: flex;
+    align-items: center;
+}
+
+.menuja-ansore-avatar{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin-right: 12px;
+    position: relative;
+}
+
+.menuja-ansore-info {
+    font-size: 14px;
+    font-weight: 400;
+    color:gray 
+}
+
+.menuja-ansore-emri {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menuja-ansore-switch {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.menuja-ansore-head h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: grey
+}
+
+.menuja-ansore-acc {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    padding-left: 4px;
+}
+
+.menuja-ansore-suggest {
+    display: flex;
+    align-items: center;
+}
+
+.avatari-ansor-suggest{
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.menuja-ansore-suggest-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1; 
+}
+
+.menuja-ansore-suggest-info a {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.menuja-ansore-suggest-info span {
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+}
+
+.menuja-ansore-suggest-follow {
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+}
+

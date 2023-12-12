@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@100;300;400;600;700;800;900&display=swap');
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.titulli {
+    font-family: 'Grand Hotel', cursive;
+    font-size: 3.5rem;
+    margin-top: 20px;
+}
+
+.margintop1 {
+    height: 400px;
+    margin-top: 250px;
+    border: 1px solid #cccccc;   
+    padding: 7px;
+}
+.margintop2 {
+    margin-top: 485px;
+    border: 1px solid #cccccc;   
+    padding: 7px;
+}
+.margintop3 {
+    margin-top: 570px;
+}
+
+.inputi {
+    width: 80%;
+    padding: 10px;
+    margin-top: 7px;
+    background-color: rgb(245, 245, 245);
+    border-width: 1px;
+}
+.inputi::placeholder {
+    font-size: 14px; 
+}
+
+.or{
+    color:grey;
+    margin-top: 20px;
+}
+
+.butoni{
+    margin-top: 7px;
+}
+.inputet {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.butoni {
+    width: 80%;
+}
+
+.section {
+    width: 350px;
+    text-align: center;
+}
+
+.log-fb {
+    color: #0f4b99;
+    text-decoration: none; 
+    font-size: 1rem; 
+    font-weight: 600; 
+    cursor: pointer; 
+}
+
+.log-fb:hover {
+    text-decoration: none; 
+    color: #0c3f7e; 
+}
+.logo-fb{
+    margin-right:5px ;
+    position: relative;
+    bottom:3px;
+}
+.fg-paswword{
+    color: #3a679e;
+    text-decoration: none; 
+    font-size: 0.9rem; 
+    font-weight: 600; 
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+}
+
+.singup{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.s-up{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.GTA {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.img1 {
+    margin-top: 10px;
+    width: 40%;
+}
+.img2 {
+    margin-top: 10px;
+    width: 33%;
+}

@@ -1,0 +1,42 @@
+                /* REGJISTRIMI */
+
+.logo1-fb {
+    color: white;
+}
+
+.tedhena {
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.margintop1_regjistrimi {
+    height: 560px;
+    margin-top: 350px;
+    border: 1px solid #cccccc;
+    padding: 7px;
+}
+
+.margintop2_regjistrimi {
+    margin-top: 665px;
+    border: 1px solid #cccccc;
+    padding: 7px;
+}
+
+.margintop3_regjistrimi {
+    margin-top: 790px;
+}
+
+.img1_regjistrimi {
+    margin-top: 10px;
+    width: 40%;
+    margin-bottom: 40px;
+}
+
+.img2_regjistrimi {
+    margin-top: 10px;
+    width: 33%;
+    margin-bottom: 40px;
+}

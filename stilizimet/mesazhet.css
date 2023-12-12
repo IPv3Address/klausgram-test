@@ -1,0 +1,18 @@
+.input-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.mesazhi {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.avatari {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
